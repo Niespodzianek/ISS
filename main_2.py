@@ -47,9 +47,9 @@ def program():
     ekran.title(
         "Pozycja Międzynarodowej Stacji Kosmicznej - z wykresem przelotu"
     )
-    ekran.setup(640, 480)
+    ekran.setup(1280, 661)
     ekran.setworldcoordinates(-180, -90, 180, 90)
-    ekran.bgpic(os.path.join("Gify", "tlo_2.gif"))
+    ekran.bgpic(os.path.join("Gify", "tlo_1280x661.gif"))
     ekran.register_shape(os.path.join("Gify", "satelita_1.gif"))
     iss.shape(name=os.path.join("Gify", "satelita_1.gif"))
     iss.penup()
