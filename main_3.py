@@ -49,9 +49,9 @@ def program():
     )
     ekran.setup(640, 480)
     ekran.setworldcoordinates(-180, -90, 180, 90)
-    ekran.bgpic(os.path.join("Gify", "tlo_1.gif"))
-    ekran.register_shape(os.path.join("Gify", "satelita_3.gif"))
-    iss.shape(name=os.path.join("Gify", "satelita_3.gif"))
+    ekran.bgpic(os.path.join("Gify", "tlo_4.gif"))
+    ekran.register_shape(os.path.join("Gify", "satelita_2.gif"))
+    iss.shape(name=os.path.join("Gify", "satelita_2.gif"))
     iss.penup()
     petla_pracuje = True
     api_iss_zaloga = "http://api.open-notify.org/astros.json"
