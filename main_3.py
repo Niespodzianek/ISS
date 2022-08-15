@@ -49,7 +49,7 @@ def program():
     )
     ekran.setup(640, 480)
     ekran.setworldcoordinates(-180, -90, 180, 90)
-    ekran.bgpic(os.path.join("Gify", "tlo_4.gif"))
+    ekran.bgpic(os.path.join("Gify", "tlo_2.gif"))
     ekran.register_shape(os.path.join("Gify", "satelita_2.gif"))
     iss.shape(name=os.path.join("Gify", "satelita_2.gif"))
     iss.penup()
