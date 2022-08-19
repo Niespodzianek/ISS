@@ -71,7 +71,7 @@ def program():
             iss.goto(float(pozycja_na_mapie[0]), float(pozycja_na_mapie[1]))
         time.sleep(2)
         os.system("clear")
-    print("KONIEC PRACY")
+    print("KONIEC PRACY !")
 
 
 if __name__ == "__main__":
