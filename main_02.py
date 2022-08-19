@@ -47,11 +47,11 @@ def program():
     ekran.title(
         "Pozycja Międzynarodowej Stacji Kosmicznej - z wykresem przelotu"
     )
-    ekran.setup(1280, 661)
+    ekran.setup(640, 480)
     ekran.setworldcoordinates(-180, -90, 180, 90)
-    ekran.bgpic(os.path.join("Gify", "tlo_1280x661.gif"))
-    ekran.register_shape(os.path.join("Gify", "satelita_1.gif"))
-    iss.shape(name=os.path.join("Gify", "satelita_1.gif"))
+    ekran.bgpic(os.path.join("Gify", "tlo_5.gif"))
+    ekran.register_shape(os.path.join("Gify", "satelita_2.gif"))
+    iss.shape(name=os.path.join("Gify", "satelita_2.gif"))
     iss.penup()
     petla_pracuje = True
     api_iss_zaloga = "http://api.open-notify.org/astros.json"
